@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>691542846022-5tbsi2arljj5jig212a5fm1vkgdon1k4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.691542846022-5tbsi2arljj5jig212a5fm1vkgdon1k4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyA6Tw-pFeSt-Sn_OLDE5OjfpupNIEtuFek</string>
+	<key>GCM_SENDER_ID</key>
+	<string>691542846022</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.waterfort.-v1forFortnite</string>
+	<key>PROJECT_ID</key>
+	<string>v1forfortnite-eff6c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>v1forfortnite-eff6c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:691542846022:ios:880ec7692bcc8fe0983847</string>
+	<key>DATABASE_URL</key>
+	<string>https://v1forfortnite-eff6c.firebaseio.com</string>
+</dict>
+</plist>

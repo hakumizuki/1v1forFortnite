@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DD25A6843CA6B736337E74D /* Pods_1v1forFortnite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71C47E4974F23D822042202 /* Pods_1v1forFortnite.framework */; };
 		9E22A5F724A23ECF00B8201F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E22A5F624A23ECF00B8201F /* AppDelegate.swift */; };
 		9E22A5F924A23ECF00B8201F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E22A5F824A23ECF00B8201F /* SceneDelegate.swift */; };
 		9E22A5FB24A23ECF00B8201F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E22A5FA24A23ECF00B8201F /* ViewController.swift */; };
 		9E22A5FE24A23ECF00B8201F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E22A5FC24A23ECF00B8201F /* Main.storyboard */; };
 		9E22A60024A23ED500B8201F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E22A5FF24A23ED500B8201F /* Assets.xcassets */; };
 		9E22A60324A23ED500B8201F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E22A60124A23ED500B8201F /* LaunchScreen.storyboard */; };
+		9E22A60B24A2407F00B8201F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E22A60A24A2407F00B8201F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F42CEFACCD562A22235E359 /* Pods-1v1forFortnite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1v1forFortnite.release.xcconfig"; path = "Target Support Files/Pods-1v1forFortnite/Pods-1v1forFortnite.release.xcconfig"; sourceTree = "<group>"; };
 		9E22A5F324A23ECF00B8201F /* 1v1forFortnite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1v1forFortnite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E22A5F624A23ECF00B8201F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E22A5F824A23ECF00B8201F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		9E22A5FF24A23ED500B8201F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E22A60224A23ED500B8201F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E22A60424A23ED500B8201F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E22A60A24A2407F00B8201F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D54387EA52DC8F4BDD352FBC /* Pods-1v1forFortnite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1v1forFortnite.debug.xcconfig"; path = "Target Support Files/Pods-1v1forFortnite/Pods-1v1forFortnite.debug.xcconfig"; sourceTree = "<group>"; };
+		D71C47E4974F23D822042202 /* Pods_1v1forFortnite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_1v1forFortnite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD25A6843CA6B736337E74D /* Pods_1v1forFortnite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E4B4ACAD60ED7590379628C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D71C47E4974F23D822042202 /* Pods_1v1forFortnite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E22A5EA24A23ECF00B8201F = {
 			isa = PBXGroup;
 			children = (
 				9E22A5F524A23ECF00B8201F /* 1v1forFortnite */,
 				9E22A5F424A23ECF00B8201F /* Products */,
+				D13D43069014C6538C3EB906 /* Pods */,
+				3E4B4ACAD60ED7590379628C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,19 @@
 				9E22A5FF24A23ED500B8201F /* Assets.xcassets */,
 				9E22A60124A23ED500B8201F /* LaunchScreen.storyboard */,
 				9E22A60424A23ED500B8201F /* Info.plist */,
+				9E22A60A24A2407F00B8201F /* GoogleService-Info.plist */,
 			);
 			path = 1v1forFortnite;
+			sourceTree = "<group>";
+		};
+		D13D43069014C6538C3EB906 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D54387EA52DC8F4BDD352FBC /* Pods-1v1forFortnite.debug.xcconfig */,
+				4F42CEFACCD562A22235E359 /* Pods-1v1forFortnite.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E22A60724A23ED500B8201F /* Build configuration list for PBXNativeTarget "1v1forFortnite" */;
 			buildPhases = (
+				BA7C83A5998D66A0E89F7886 /* [CP] Check Pods Manifest.lock */,
 				9E22A5EF24A23ECF00B8201F /* Sources */,
 				9E22A5F024A23ECF00B8201F /* Frameworks */,
 				9E22A5F124A23ECF00B8201F /* Resources */,
+				9290C6D50900472F48AA0E22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +156,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E22A60324A23ED500B8201F /* LaunchScreen.storyboard in Resources */,
+				9E22A60B24A2407F00B8201F /* GoogleService-Info.plist in Resources */,
 				9E22A60024A23ED500B8201F /* Assets.xcassets in Resources */,
 				9E22A5FE24A23ECF00B8201F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9290C6D50900472F48AA0E22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-1v1forFortnite/Pods-1v1forFortnite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-1v1forFortnite/Pods-1v1forFortnite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-1v1forFortnite/Pods-1v1forFortnite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA7C83A5998D66A0E89F7886 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-1v1forFortnite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E22A5EF24A23ECF00B8201F /* Sources */ = {
@@ -282,11 +355,13 @@
 		};
 		9E22A60824A23ED500B8201F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54387EA52DC8F4BDD352FBC /* Pods-1v1forFortnite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VF477Z9U69;
 				INFOPLIST_FILE = 1v1forFortnite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +375,13 @@
 		};
 		9E22A60924A23ED500B8201F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F42CEFACCD562A22235E359 /* Pods-1v1forFortnite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VF477Z9U69;
 				INFOPLIST_FILE = 1v1forFortnite/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
