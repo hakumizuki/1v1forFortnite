@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,11 @@
 		9E22A5F924A23ECF00B8201F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E22A5F824A23ECF00B8201F /* SceneDelegate.swift */; };
 		9E22A5FB24A23ECF00B8201F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E22A5FA24A23ECF00B8201F /* ViewController.swift */; };
 		9E22A5FE24A23ECF00B8201F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E22A5FC24A23ECF00B8201F /* Main.storyboard */; };
-		9E22A60024A23ED500B8201F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E22A5FF24A23ED500B8201F /* Assets.xcassets */; };
 		9E22A60324A23ED500B8201F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E22A60124A23ED500B8201F /* LaunchScreen.storyboard */; };
 		9E22A60B24A2407F00B8201F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E22A60A24A2407F00B8201F /* GoogleService-Info.plist */; };
+		9E2D52C324A74F4600BBCA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D52C224A74F4600BBCA18 /* Assets.xcassets */; };
+		9E2D52C524A74F6100BBCA18 /* Animations in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D52C424A74F6100BBCA18 /* Animations */; };
+		9E2D52C724A74F7B00BBCA18 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9E2D52C624A74F7B00BBCA18 /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +26,12 @@
 		9E22A5F824A23ECF00B8201F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E22A5FA24A23ECF00B8201F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9E22A5FD24A23ECF00B8201F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9E22A5FF24A23ED500B8201F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E22A60224A23ED500B8201F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E22A60424A23ED500B8201F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E22A60A24A2407F00B8201F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9E2D52C224A74F4600BBCA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E2D52C424A74F6100BBCA18 /* Animations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Animations; sourceTree = "<group>"; };
+		9E2D52C624A74F7B00BBCA18 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		D54387EA52DC8F4BDD352FBC /* Pods-1v1forFortnite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-1v1forFortnite.debug.xcconfig"; path = "Target Support Files/Pods-1v1forFortnite/Pods-1v1forFortnite.debug.xcconfig"; sourceTree = "<group>"; };
 		D71C47E4974F23D822042202 /* Pods_1v1forFortnite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_1v1forFortnite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,12 +77,14 @@
 		9E22A5F524A23ECF00B8201F /* 1v1forFortnite */ = {
 			isa = PBXGroup;
 			children = (
+				9E2D52C624A74F7B00BBCA18 /* Fonts */,
+				9E2D52C424A74F6100BBCA18 /* Animations */,
 				9E22A5F624A23ECF00B8201F /* AppDelegate.swift */,
 				9E22A5F824A23ECF00B8201F /* SceneDelegate.swift */,
 				9E22A5FA24A23ECF00B8201F /* ViewController.swift */,
 				9E22A5FC24A23ECF00B8201F /* Main.storyboard */,
-				9E22A5FF24A23ED500B8201F /* Assets.xcassets */,
 				9E22A60124A23ED500B8201F /* LaunchScreen.storyboard */,
+				9E2D52C224A74F4600BBCA18 /* Assets.xcassets */,
 				9E22A60424A23ED500B8201F /* Info.plist */,
 				9E22A60A24A2407F00B8201F /* GoogleService-Info.plist */,
 			);
@@ -91,7 +97,6 @@
 				D54387EA52DC8F4BDD352FBC /* Pods-1v1forFortnite.debug.xcconfig */,
 				4F42CEFACCD562A22235E359 /* Pods-1v1forFortnite.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,9 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2D52C524A74F6100BBCA18 /* Animations in Resources */,
 				9E22A60324A23ED500B8201F /* LaunchScreen.storyboard in Resources */,
 				9E22A60B24A2407F00B8201F /* GoogleService-Info.plist in Resources */,
-				9E22A60024A23ED500B8201F /* Assets.xcassets in Resources */,
+				9E2D52C724A74F7B00BBCA18 /* Fonts in Resources */,
+				9E2D52C324A74F4600BBCA18 /* Assets.xcassets in Resources */,
 				9E22A5FE24A23ECF00B8201F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
